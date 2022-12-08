@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hellojs</title>
     <script>
-        alert('Hello Meow')
+        let counting=0;
+        function count(){
+            counting++;
+            alert(counting);
+        }
     </script>
 </head>
 <body>
-    <h1>Hello World</h1>
-    
+    <h1 color="Blue">Hello World</h1>
+    <button onclick="count()">Count</button>
 </body>
 </html>
